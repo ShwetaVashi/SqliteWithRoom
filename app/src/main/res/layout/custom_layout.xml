@@ -24,10 +24,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvID"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvID"
         app:layout_constraintEnd_toStartOf="@id/tvLname"
         app:layout_constraintStart_toEndOf="@id/tvID"
-        app:layout_constraintTop_toTopOf="@+id/tvID"
         tools:text="Shweta" />
 
     <TextView
@@ -35,10 +34,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="24sp"
-        app:layout_constraintBottom_toBottomOf="@+id/tvFname"
+        app:layout_constraintBaseline_toBaselineOf="@+id/tvFname"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@id/tvFname"
-        app:layout_constraintTop_toTopOf="@+id/tvFname"
         tools:text="Vashi" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
