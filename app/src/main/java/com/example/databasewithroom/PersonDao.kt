@@ -19,4 +19,7 @@ interface PersonDao {
 
     @Delete
     suspend fun deleteData(person: Person)
+
+    @Insert
+    suspend fun insertPersonDetail(person: Person)
 }
